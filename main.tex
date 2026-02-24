@@ -1,6 +1,6 @@
 \documentclass[a4paper, 11pt]{article}
 \pagestyle{empty}
-\usepackage[a4paper, margin=0.3in]{geometry}
+\usepackage[a4paper, margin=0.2in]{geometry}
 \usepackage[parfill]{parskip}
 \usepackage{multicol}
 \usepackage{hyperref}
@@ -42,7 +42,7 @@
     {\huge \textbf{Jay Nakum} }
     \\
     \smallskip 
-    {\large Graphics Programmer $\diamond$ Engine Programmer}
+    {\large Rendering Programmer $\diamond$ Software Engineer}
     \\
     Rajkot, Gujarat, India
     $\diamond$
@@ -50,6 +50,8 @@
     $\diamond$
     +91 94092 59646
     \\
+    \href{https://jaynakum.github.io/blog}{blog}
+    $\diamond$
     \href{https://jaynakum.github.io}{jaynakum.github.io}
     $\diamond$
     \href{https://linkedin.com/in/JayNakum}{linkedin.com/in/JayNakum}
@@ -58,42 +60,29 @@
 \end{center}  
 
 \medskip
-\begin{resumeSection}{Education}
-    \item
-    \textbf{Pandit Deendayal Energy University (School of Technology)}
-    \hfill
-    Gandhinagar, Gujarat
-    \\
-    Bachelor of Technology - Computer Science and Engineering - 9.79 CGPA
-    \hfill
-    {Aug 2021 - Present}
-
-    \item
-    \textbf{A. V. Parekh Technical Institute (Gujarat Technological University)}
-    \hfill
-    Rajkot, Gujarat
-    \\
-    Diploma - Computer Engineering - 9.74 CGPA
-    \hfill
-    {Aug 2018 - Jun 2021}
-\end{resumeSection}
-
-\medskip
 \begin{resumeSection}{Experience}
     \item
     \textbf{Ubisoft Entertainment PVT LTD}
     \hfill
-    Pune, Maharashtra, India (On Site)
+    Pune, Maharashtra, India (Hybrid)
     \\
-    Intern - 3D Programmer (Rendering Team)
+    Junior 3D Programmer (Rendering Team)
+    \hfill
+    July 2024 - Present
+    
+    \begin{sectionItems}
+        \item Skull and Bones (Present)
+        \item Unannounced Project (Canceled)
+    \end{sectionItems}
+    
+    \item
+    Intern 3D Programmer (Rendering Team) | \href{https://drive.google.com/file/d/14NAg0WCT8G1mMbb5nMeUtBY0cgDZIWZu/view?usp=sharing}{Internship Offer Letter}
     \hfill
     January 2024 - July 2024
     
     \begin{sectionItems}
-        \item Worked as a graphics programmer on an unannounced project and fixed bugs on Ubisoft's game engine.
-        \item Went through extensive training for advance C++, 3D Mathematics and Computer Graphics.
-        \item Developed a graphics renderer and wrote a mathematics library with SIMD optimizations during training.
-        \item Got mentorship of senior engineers and graphics programmer from the rendering team.
+        \item Unannounced Project (Canceled)
+        \item Training and mentorship from experts for advance C++, 3D Mathematics and Computer Graphics.
     \end{sectionItems}
     
     \item
@@ -101,7 +90,7 @@
     \hfill
     Ahmedabad, Gujarat, India (Hybrid)
     \\
-    CSE Trainee
+    CSE Trainee | \href{https://drive.google.com/file/d/1YWbPwVQkBEM7lSxONwVByMf6O-FGWlK7/view?usp=sharing}{Completion Letter}
     \hfill
     May 2023 - June 2023
     
@@ -110,11 +99,11 @@
     \end{sectionItems}
     
     \item 
-    \textbf{vigIT Solutions} (\href{https://drive.google.com/file/d/1yF5baJ-uIWpwAHL0Sd-CwycYHjbyFumW/view?usp=sharing}{Completion Letter})
+    \textbf{vigIT Solutions}
     \hfill
     Jaipur, Rajasthan, India (Remote)
     \\
-    Flutter Intern
+    Flutter Intern | \href{https://drive.google.com/file/d/1yF5baJ-uIWpwAHL0Sd-CwycYHjbyFumW/view?usp=sharing}{Completion Letter}
     \hfill
     Jun 2022 - Sept 2022
     
@@ -125,53 +114,68 @@
 \end{resumeSection}
 
 \medskip
-\begin{resumeSection}{Projects}
-    \item \textbf{Vibrato} | {C++}
-    \hfill \href{https://github.com/JayNakum/Vibrato}{GitHub}
+\begin{resumeSection}{Education}
+    \item
+    \textbf{Pandit Deendayal Energy University (School of Technology)}
+    \hfill
+    Gandhinagar, Gujarat
+    \\
+    Bachelor of Technology - Computer Science and Engineering - 9.81 CGPA
+    \hfill
+    {Aug 2021 - June 2024}
+
+    \item
+    \textbf{A. V. Parekh Technical Institute (Gujarat Technological University)}
+    \hfill
+    Rajkot, Gujarat
+    \\
+    Diploma - Computer Engineering - 9.79 CGPA
+    \hfill
+    {Aug 2018 - Jun 2021}
+\end{resumeSection}
+
+\medskip
+\begin{resumeSection}{Projects and Publications}
+    \item \textbf{Skull and Bones} (Ubisoft) | {Windows, PS5, XBox}
     \begin{sectionItems}
         \setlength\itemsep{-0.5em}
-        \item Explored ray tracing and implemented various raytracing techniques and raycollision methods.
+        \item Overlooking the entire rendering pipeline optimizations and focusing on low level GPU crashes.
+        \item Feature owner of the water displacement system to render custom water shapes such as whirlpools and radial waves, released in Y2S4 with Kraken.
+        \item Solving bugs related to all the API level systems.
+        \item Responsible for ensuring integrations to and from the main Anvil engine branch.
+    \end{sectionItems}
+    
+    \item \textbf{Harmony} | {C++, DirectX 12}
+    \begin{sectionItems}
+        \setlength\itemsep{-0.5em}
+        \item Implemented custom GPU resource management.\hfill \href{https://jaynakum.github.io/blog/7/GPUMemoryManagement}{blog post}
+        \item Engineered an elegant shader input and descriptor management system.\hfill \href{https://jaynakum.github.io/blog/8/GPUResourceDescriptors}{blog post}
+        \item Implemented production quality FFT ocean water rendering with multi pass system.\hfill \href{https://jaynakum.github.io/blog/6/OceanRendering}{blog post}
     \end{sectionItems}
 
     \item \textbf{Happy Face} | {C++, OpenGL}
-    \hfill 
-    \href{https://jaynakum.github.io/blog/1/HappyFace}{Blog Post}/\href{https://github.com/JayNakum/HappyFace}{GitHub}
     \begin{sectionItems}
         \setlength\itemsep{-0.5em}
-        \item Developed a scene based opengl renderer. Merged all the bits and pieces of my learning into one project.
-        \item Implemented shaders, textures, transformations and coordinate systems, lighting, model loading.
+        \item Developed a scene based opengl renderer.\hfill \href{https://jaynakum.github.io/blog/1/HappyFace}{blog post}
     \end{sectionItems}
 
-    \item \textbf{BitsApriori} (University Project) | {C++}
-    \hfill 
-    \href{https://jaynakum.github.io/blog/2/BitsApriori}{Blog Post}/\href{https://github.com/JayNakum/BitsApriori}{GitHub}
+    \item \textbf{Vibrato} | {C++, ImGUI}
     \begin{sectionItems}
         \setlength\itemsep{-0.5em}
-        \item Implemented apriori algorithm for association rule mining using binary encoding for representing transaction database to minimize its memory consumption.
+        \item CPU path tracer. Explored and implemented various raycollision methods.\hfill \href{https://github.com/JayNakum/Vibrato}{github}
     \end{sectionItems}
 
-    \item \textbf{BitNCrypt} (University Project) | {C++}
-    \hfill
-    \href{https://jaynakum.github.io/blog/3/BitNCrypt}{Blog Post}/\href{https://github.com/JayNakum/BitNCrypt}{GitHub}
+    \item \textbf{Turbofan Engine Predictive Maintenance} (University Project) | {Python, Machine Learning}
     \begin{sectionItems}
         \setlength\itemsep{-0.5em}
-        \item Designed an algorithm based on the similar concepts of hashing which can be used to generate and manage passwords without storing them.
+        \item Proposed solution has shown 0.789 R2 score with 19.077 RMSE values, which is higher than other machine learning based models in RUL prediction.\hfill \href{https://www.sciencedirect.com/science/article/pii/S1877050925010610}{publication}
     \end{sectionItems}
-
-    \item \textbf{CPU Scheduling Simulator} (University Project) | {Python, Flutter, Firebase}
-    \hfill \href{https://github.com/JayNakum/OperatingSystemsProject}{GitHub}
-    \begin{sectionItems}
-        \item Developed a simulator for process scheduling algorithms (FCFS, SJF, SRTF and RR) in OS.
-    \end{sectionItems}
-
-    \item \textbf{LiViD} (University Project) | {Flutter, Firebase}
-    \hfill \href{https://github.com/JayNakum/LiViD}{GitHub}
+    
+    \item \textbf{BitsApriori} (University Project) | {C++, Machine Learning}
     \begin{sectionItems}
         \setlength\itemsep{-0.5em}
-        \item Developed a live streaming app using Agora SDK.
-        \item This project won 2nd place in SSIP competition for Saurashtra Kutch Region, Gujarat.
+        \item Implemented apriori algorithm for association rule mining using binary encoding for representing transaction database and computing directly on the compressed data using bitwise operations.\hfill \href{https://jaynakum.github.io/blog/2/BitsApriori}{blog post}
     \end{sectionItems}
-
 \end{resumeSection}
 
 \medskip
@@ -184,14 +188,14 @@
 \end{resumeSection}
 \columnbreak
 \begin{resumeSection}{Skills}
-    \item \textbf{Tech}: C/C++, OpenGL, GLSL, DirectX9 \& DirectX12, HLSL, Python, Flutter, SQL.
+    \item \textbf{Tech}: C/C++, D3D12, HLSL, Pix, RenderDoc, Low Level Programming, Vulkan, OpenGL
     \item \textbf{Tools}: Git, Visual Studio, Premake, Perforce.
-    \item \textbf{Operating Systems}: Linux (Manjaro), Windows.
+    \item \textbf{Operating Systems}: Linux, Windows.
 \end{resumeSection}
 \end{multicols}
-\begin{resumeSection}{Hobbies and Interests}
-    \item Guitar Playing, Music Theory, Singing, Music Composing, Staff Notations, Orchestration, Harmonizing, Voicing, 
-    \\
-    Digital Image Processing, Compiler Designing, Cryptography, Theory of Computation, Mathematics, Learning
-\end{resumeSection}
+% \begin{resumeSection}{Hobbies and Interests}
+%     \item Guitar Playing, Music Theory, Singing, Music Composing, Staff Notations, Orchestration, Harmonizing, Voicing, 
+%     \\
+%     Digital Image Processing, Compiler Designing, Cryptography, Theory of Computation, Mathematics, Learning
+% \end{resumeSection}
 \end{document}
